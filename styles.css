@@ -79,4 +79,7 @@ h1{
    color:gold;
    font-size:100px;
 }
-    
+#Battle{
+    display:flex;
+    justify-content:space-around;
+}
