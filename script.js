@@ -5,6 +5,7 @@
         // $("body").css("background-image": "url('https://pngimage.net/wp-content/uploads/2018/06/pokemon-background-png-4.png');");
         // $("body").css("background-color", "yellow");
         // $("#empty").append("#empty");
+        // $("#complete").html("<img id='Battle' src='https://i.pinimg.com/originals/e2/84/b1/e284b14af595f046c749aea762b546a6.png'>");
         $("#hp").append("<p> Hp: "+HP+"</p>");
         
         var search=$("#chosenone").val();
@@ -27,19 +28,23 @@
 
         var newHP=HP--;
        $("#hp").html("<p> Hp: "+newHP+"</p>");
+       return alert("you are only hurting yourself");
     });
      $("#move2o").click(function(){
 
         var newHP=HP--;
        $("#hp").html("<p> Hp: "+newHP+"</p>");
+       return alert("you are only hurting yourself");
     });
      $("#move3o").click(function(){
 
         var newHP=HP--;
        $("#hp").html("<p> Hp: "+newHP+"</p>");
+       return alert("you are only hurting yourself");
     });
      $("#move4o").click(function(){
 
         var newHP=HP--;
        $("#hp").html("<p> Hp: "+newHP+"</p>");
+       return alert("you are only hurting yourself");
     });
