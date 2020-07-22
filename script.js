@@ -46,5 +46,5 @@
 
         var newHP=HP--;
        $("#hp").html("<p> Hp: "+newHP+"</p>");
-       return alert("you are only hurting yourself");
+       return alert("Currently under development as I need to source for an api that has pokemon moves/damage/effectiveness. At the moment your pokemon is the one that takes damage.");
     });
